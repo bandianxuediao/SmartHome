@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:key="wifi_settings"
+	android:title="wifi设置"
+	android:summary="@string/str_preference_summary">
+	<PreferenceCategory android:title="@string/str_preference_host_setting"
+		android:key="store_host_preferences">
+		<EditTextPreference android:name="reference_host_setting_ip"
+			android:title="IP地址"
+			android:summary="@string/str_preference_host_setting_ip_summary"
+			android:defaultValue="192.168.2.1" android:key="setting_host_ip" />
+		<EditTextPreference android:name="reference_host_setting_ip"
+			android:title="通讯端口"
+			android:summary="@string/str_preference_host_setting_port_summary"
+			android:defaultValue="5000" android:key="setting_host_port" />		
+			</PreferenceCategory>
+</PreferenceScreen>

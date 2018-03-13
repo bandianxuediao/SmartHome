@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/normal_bg"
+    >
+<TextView  
+    android:layout_height="wrap_content" 
+    android:text="SHome配置" android:layout_width="fill_parent"
+    android:textSize="30px"
+    />
+    
+<ImageView android:id="@+id/ImageView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/bar"></ImageView>
+
+<LinearLayout 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_gravity="center_horizontal">
+	
+</LinearLayout>
+
+<LinearLayout 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_gravity="center_horizontal">
+<ImageButton android:id="@+id/ImageButton09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lightbig"></ImageButton>
+<ImageButton android:id="@+id/ImageButton10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lightless"></ImageButton>
+</LinearLayout>		
+</LinearLayout>

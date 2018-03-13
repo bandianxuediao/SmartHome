@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+		<EditTextPreference android:name="reference_host_setting_ip"
+			android:title="IP地址"
+			android:summary="@string/str_preference_host_setting_ip_summary"
+			android:defaultValue="192.168.2.3" android:key="setting_host_ip" />
+		<EditTextPreference android:name="reference_host_setting_ip"
+			android:title="通讯端口"
+			android:summary="@string/str_preference_host_setting_port_summary"
+			android:defaultValue="5000" android:key="setting_host_port" />		
+		<EditTextPreference android:name="设备地址"
+			android:title="设备地址"
+			android:summary="设备地址"
+			android:defaultValue="1" android:key="setting_dev_addr" />	
+		<EditTextPreference android:name="继电器1通道名"
+			android:title="继电器1"
+			android:summary="@string/str_refer_relay"
+			android:defaultValue="1号" android:key="setting_realy1" />	
+			
+		<EditTextPreference android:name="继电器2通道名"
+			android:title="继电器2"
+			android:summary="@string/str_refer_relay"
+			android:defaultValue="2号" android:key="setting_realy2" />	
+			
+		<EditTextPreference android:name="继电器3通道名"
+			android:title="继电器3"
+			android:summary="@string/str_refer_relay"
+			android:defaultValue="3号" android:key="setting_realy3" />	
+			
+		<EditTextPreference android:name="继电器4通道名"
+			android:title="继电器4"
+			android:summary="@string/str_refer_relay"
+			android:defaultValue="4号" android:key="setting_realy4" />	
+
+		<EditTextPreference android:name="继电器5通道名"
+			android:title="继电器5"
+			android:summary="@string/str_refer_relay"
+			android:defaultValue="5号" android:key="setting_realy5" />	
+			
+		<EditTextPreference android:name="继电器6通道名"
+			android:title="继电器6"
+			android:summary="@string/str_refer_relay"
+			android:defaultValue="6号" android:key="setting_realy6" />	
+			
+		<EditTextPreference android:name="继电器7通道名"
+			android:title="继电器7"
+			android:summary="@string/str_refer_relay"
+			android:defaultValue="7号" android:key="setting_realy7" />	
+			
+		<EditTextPreference android:name="继电器8通道名"
+			android:title="继电器8"
+			android:summary="@string/str_refer_relay"
+			android:defaultValue="8号" android:key="setting_realy8" />	
+			
+		<EditTextPreference android:name="继电器9通道名"
+			android:title="继电器9"
+			android:summary="@string/str_refer_relay"
+			android:defaultValue="9号" android:key="setting_realy9" />	
+			
+		<EditTextPreference android:name="继电器10通道名"
+			android:title="继电器10"
+			android:summary="@string/str_refer_relay"
+			android:defaultValue="10号" android:key="setting_realy10" />	
+			
+		<EditTextPreference android:name="继电器11通道名"
+			android:title="继电器11"
+			android:summary="@string/str_refer_relay"
+			android:defaultValue="11号" android:key="setting_realy11" />	
+			
+		<EditTextPreference android:name="继电器12通道名"
+			android:title="继电器12"
+			android:summary="@string/str_refer_relay"
+			android:defaultValue="12号" android:key="setting_realy12" />	
+</PreferenceScreen>

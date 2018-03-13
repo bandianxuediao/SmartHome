@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/layout_control"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:padding="25dp" >
+	<LinearLayout android:id="@+id/layout_top"
+		android:layout_width="fill_parent" android:layout_height="40dp"
+		android:orientation="vertical" android:background="#00000000"
+		android:gravity="left" android:layout_alignParentTop="true">
+		<TextView android:id="@+id/txtSongName" android:textSize="18sp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textColor="#ffffff" android:text="确认远程主机属性"
+			android:gravity="center" />
+		<View android:layout_width="fill_parent" android:layout_height="1dp"
+			android:background="#40FFFFFF" android:layout_marginTop="5dp" />
+	</LinearLayout>
+ 
+	<LinearLayout android:id="@+id/layout_bottom"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:orientation="horizontal" android:layout_alignParentBottom="true">
+		<Button android:layout_height="50dp"
+			android:layout_width="70dp" android:id="@+id/btnA" android:textSize="18sp"
+			android:text="确定" android:background="@drawable/btn_control_selector" />
+		<Button android:layout_height="50dp"
+			android:layout_width="70dp" android:id="@+id/btnB" android:textSize="18sp"
+			android:text="取消" android:background="@drawable/btn_control_selector" />
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_marginBottom="6dp" android:layout_height="fill_parent"
+		android:orientation="vertical" android:gravity="left"
+		android:layout_below="@id/layout_top" android:layout_above="@id/layout_bottom">
+		<EditText android:text="" android:id="@+id/edtHostIp"
+			android:maxLength="120" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:gravity="top" />
+		<EditText android:text="" android:id="@+id/edtHostPort"
+			android:maxLength="120" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:gravity="top" />
+
+	</LinearLayout>
+</RelativeLayout>
